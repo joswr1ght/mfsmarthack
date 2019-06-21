@@ -1,0 +1,19 @@
+MIFARE SmartHack Utils - Tools to aid in attacking smarter MIFARE tags
+
+
+See COPYING for license information.  Based on sources included in libnfc by
+Romuald Conty and libfreefare by Romain Tartiere.
+
+nfc-mfdesfire - Enumerate AIDs and other info  on a DESFire tag
+nfc-mfdesfire-keysearch - Search for keys using an input data file against
+	a specified AID and key index number.
+nfc-mfultralightc
+	Read or write data to an Ultralight-C/Ultralight-X tag.
+
+INSTALL
+
+These tools require the libnfc and libfreefare libraries.  Run "make" to build.
+
+CONTACT
+
+Joshua Wright <jwright@hasborg.com>
